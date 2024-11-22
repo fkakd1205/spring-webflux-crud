@@ -25,6 +25,8 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-r2dbc', version: '3.3.2'
+	implementation 'io.asyncer:r2dbc-mysql:1.2.0'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
