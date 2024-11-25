@@ -2,7 +2,7 @@ package com.example.spring_webflux.domain.category.service;
 
 import com.example.spring_webflux.domain.category.entity.CategoryEntity;
 import com.example.spring_webflux.domain.category.repository.CategoryRepository;
-import com.example.spring_webflux.domain.dto.CategoryResDto;
+import com.example.spring_webflux.domain.category.dto.CategoryResDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;

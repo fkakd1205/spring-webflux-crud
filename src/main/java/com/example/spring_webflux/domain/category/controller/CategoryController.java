@@ -1,8 +1,8 @@
 package com.example.spring_webflux.domain.category.controller;
 
 import com.example.spring_webflux.domain.category.service.CategoryService;
-import com.example.spring_webflux.domain.dto.CategoryReqDto;
-import com.example.spring_webflux.domain.dto.CategoryResDto;
+import com.example.spring_webflux.domain.category.dto.CategoryReqDto;
+import com.example.spring_webflux.domain.category.dto.CategoryResDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

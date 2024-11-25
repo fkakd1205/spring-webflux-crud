@@ -1,4 +1,4 @@
-package com.example.spring_webflux.domain.dto;
+package com.example.spring_webflux.domain.category.dto;
 
 import com.example.spring_webflux.domain.category.entity.CategoryEntity;
 import lombok.AllArgsConstructor;
